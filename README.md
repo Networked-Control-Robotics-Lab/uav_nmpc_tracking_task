@@ -14,7 +14,7 @@ the control inputs can be bounded and target can remain inside the image.
 ## Contents
 * [Installation](https://github.com/Networked-Control-Robotics-Lab/uav_nmpc_tracking_task/blob/main/README.md#installation)
     * [Environment Setup](https://github.com/Networked-Control-Robotics-Lab/uav_nmpc_tracking_task/blob/main/README.md#environment-setup)
-    * [YOLO](https://github.com/Networked-Control-Robotics-Lab/uav_nmpc_tracking_taskmain/blob/main/README.md#yolo)
+    * [YOLO](https://github.com/Networked-Control-Robotics-Lab/uav_nmpc_tracking_task/blob/main/README.md#yolo)
     * [Tracking Controller](https://github.com/Networked-Control-Robotics-Lab/uav_nmpc_tracking_task/blob/main/README.md#tracking-controller)
 * [Implementation](https://github.com/Networked-Control-Robotics-Lab/uav_nmpc_tracking_task/blob/main/README.md#implementation)
 
