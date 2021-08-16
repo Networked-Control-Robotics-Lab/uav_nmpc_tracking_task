@@ -152,8 +152,6 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 
  add_executable(uav1_core src/uav1_core.cpp)
- add_executable(uav2_core src/uav2_core.cpp)
- add_executable(uav3_core src/uav3_core.cpp)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -169,19 +167,8 @@ include_directories(
  ${catkin_LIBRARIES}
  ${PCL_LIBRARIES}
 )
-target_link_libraries(uav2_core
-${catkin_LIBRARIES}
-${PCL_LIBRARIES}
-)
-target_link_libraries(uav3_core
-${catkin_LIBRARIES}
-${PCL_LIBRARIES}
-)
-
  add_dependencies(uav1_core ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
- add_dependencies(uav2_core ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
- add_dependencies(uav3_core ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-#############
+ #############
 ## Install ##
 #############
 
