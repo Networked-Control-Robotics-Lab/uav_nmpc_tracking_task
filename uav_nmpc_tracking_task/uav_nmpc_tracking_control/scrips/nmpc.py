@@ -6,7 +6,6 @@ from std_msgs.msg import Float32MultiArray
 from geometry_msgs.msg import TwistStamped
 from geometry_msgs.msg import PoseStamped
 from gazebo_msgs.msg import ModelStates
-from uav_nmpc_tracking_control.msg import swarm
 from uav_nmpc_tracking_control.msg import output
 from uav_nmpc_tracking_control.msg import Trajectory3D
 from tf.transformations import euler_from_quaternion
