@@ -21,7 +21,8 @@ the control inputs can be bounded and target can remain inside the image.
 ## Installation
 ### Environment Setup
 * [Install ROS](http://wiki.ros.org/ROS/Installation)
-* [Install Gazebo](https://dev.px4.io/v1.9.0/en/simulation/ros_interface.html) 
+* [Install Gazebo](https://dev.px4.io/v1.9.0/en/simulation/ros_interface.html)
+* [Install MAVROS](https://docs.px4.io/master/en/ros/mavros_installation.html) 
 
 Gazebo is often used with ROS, a toolkit/offboard API for automating vehicle control. 
 * [Import Car model in Gazebo](https://github.com/osrf/car_demo)
