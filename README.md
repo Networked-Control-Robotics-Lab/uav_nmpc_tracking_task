@@ -65,7 +65,7 @@ py video_node.py uav1_v11 --topic /iris_1/camera_red_iris/image_raw
 ```
 * Run angle filter
 ```
-roscd  uav_nmpc_tracking_control/scrips/
+cd uav_nmpc_tracking_task/uav_nmpc_tracking_control/scrips/
 ```
 ```
 python movingavg_filt.py iris_1
@@ -79,15 +79,15 @@ Click buttom 2 - activate tracking controller
 manual flight contoller - w:moving in +x a:moving in +y s:landing l:disarming 
 * Run QP (quadratic programming)
 ```
-roscd  uav_nmpc_tracking_control/scrips/
+cd uav_nmpc_tracking_task/uav_nmpc_tracking_control/scrips/
 ```
 ```
-python target_qp.py iris_1 -r 80 -l 600 -w 0.1
+python target_qp.py -n 1 -r 80 -l 600 -w 0.1
 ```
 (-r : loop rate, -l : window lengh, -w : regulator weight)
 * Run NMPC (nonlinear model predictive controller)
 ```
-roscd  uav_nmpc_tracking_control/scrips/
+cd uav_nmpc_tracking_task/uav_nmpc_tracking_control/scrips/
 ```
 ```
 python nmpc.py iris_1
