@@ -32,7 +32,7 @@ The car is assumed to be the moving target to track. The moving target can be an
 * [Install YOLO](https://github.com/n8886919/YOLO#Licence-Plate-Detection)
 
 YOLO is utilized to obtain the image features and the relative angle from the bounding box of the moving target.
-![](https://i.imgur.com/hAZaUgz.png)
+![bounding_box](https://user-images.githubusercontent.com/32452273/129678441-67aff309-1789-413c-bc05-79269abfa4c8.png)
 ### Tracking Controller
 * Create an empty folder in catkin_ws/src
 * [Install Tracking Controller](https://github.com/Networked-Control-Robotics-Lab/uav_nmpc_tracking_task)
